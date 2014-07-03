@@ -2,8 +2,8 @@
 % beamer class is used for making presentations
 \usepackage{graphicx}
 
-\usepackage{helvet}
-\usefonttheme{serif}
+%\usepackage{helvet}
+%\usefonttheme{serif}
 
 \usepackage{verbatim}
 
@@ -24,9 +24,9 @@
 
 
 \title{MAKING A POWERPOINT-Like PRESENTATION WITH \LaTeX}
-\author{{\color{red}\large{\textit{Arun}}}  \\ \color{brown}\& \\  {\color{violet}\large{\textit{Gunpreet}}}}
-\setbeamertemplate{background}
-                {\includegraphics[width=\paperwidth,height=\paperheight]{i.jpg}}
+\author{{\color{red}{\textbf{\textit{Arun}}}}  \\ \color{brown}\& \\  {\color{violet}{\textbf{\textit{Gunpreet}}}}}
+%\setbeamertemplate{background}
+                %{\includegraphics[width=\paperwidth,height=\paperheight]{i.jpg}}
 % preamble for titlepage
 
 %Frame tag is used to create a slide. Frame can be given a title using frametitle tag
@@ -47,7 +47,7 @@
         \section{Basics}
         %Divides the document into chapters
         \setbeamertemplate{background}
-                {\includegraphics[width=\paperwidth,height=\paperheight]{o.jpg}}
+                %{\includegraphics[width=\paperwidth,height=\paperheight]{o.jpg}}
 
             \subsection{Introduction}
 
@@ -109,8 +109,8 @@
         \section{\LaTeX}
 
             \subsection{Basic Structure}
-            \setbeamertemplate{background}
-            {\includegraphics[width=\paperwidth,height=\paperheight]{gg.jpg}}
+           %\setbeamertemplate{background}
+            %{\includegraphics[width=\paperwidth,height=\paperheight]{gg.jpg}}
                 \begin{frame}[shrink]
                 \frametitle{Basic Structure}
                 \transdissolve
@@ -120,8 +120,8 @@
                 \end{frame}
 
             \subsection{Titlepage}
-            \setbeamertemplate{background}
-            {\includegraphics[width=\paperwidth,height=\paperheight]{gg.jpg}}
+           % \setbeamertemplate{background}
+            %{\includegraphics[width=\paperwidth,height=\paperheight]{gg.jpg}}
                 \begin{frame}[shrink]
                 \frametitle{Adding Titlepage}
                 \transblindsvertical
@@ -131,8 +131,8 @@
                 \end{frame}
 
             \subsection{section}
-            \setbeamertemplate{background}
-            {\includegraphics[width=\paperwidth,height=\paperheight]{gg.jpg}}
+            %\setbeamertemplate{background}
+            %{\includegraphics[width=\paperwidth,height=\paperheight]{gg.jpg}}
                 \begin{frame}[shrink]
                 \frametitle{Making Chapters}
                 \transwipe
@@ -142,8 +142,8 @@
                 \end{frame}
 
             \subsection{Themes}
-            \setbeamertemplate{background}
-            {\includegraphics[width=\paperwidth,height=\paperheight]{gg.jpg}}
+            %\setbeamertemplate{background}
+            %{\includegraphics[width=\paperwidth,height=\paperheight]{gg.jpg}}
                 \begin{frame}[shrink]
                 \frametitle{Playing with Themes}
                 \transboxout
@@ -154,8 +154,8 @@
                 \end{frame}
 
             \subsection{Images}
-            \setbeamertemplate{background}
-            {\includegraphics[width=\paperwidth,height=\paperheight]{c.jpg}}
+           % \setbeamertemplate{background}
+            %{\includegraphics[width=\paperwidth,height=\paperheight]{c.jpg}}
             \subsubsection{Insert Images}
                 \begin{frame}[shrink]
                 \frametitle{Implementing Images}
@@ -184,8 +184,8 @@
                     \end{frame}
 
             \subsection{Bullets and Numbering}
-            \setbeamertemplate{background}
-            {\includegraphics[width=\paperwidth,height=\paperheight]{gp.jpg}}
+            %\setbeamertemplate{background}
+            %{\includegraphics[width=\paperwidth,height=\paperheight]{b.png}}
                 \begin{frame}
                 \frametitle{Itemize}
                 \transboxout
@@ -203,24 +203,25 @@
                 \end{frame}
 
             \subsection{Transitions}
-            \setbeamertemplate{background}
-            {\includegraphics[width=\paperwidth,height=\paperheight]{mm.jpg}}
+            %\setbeamertemplate{background}
+            %{\includegraphics[width=\paperwidth,height=\paperheight]{b.png}}
                 \begin{frame}
                 \frametitle{Transitions}
                 \transwipe
-                    \begin{block}{Syntax}
+                \begin{block}{Syntax}
                         \verbatiminput{v0.tex}        
                     \end{block}
                     You can apply various transitions on slides like transblindshorizontal, transblindsvertical, transboxin, transboxout, transdissolve, transglitter, transslipverticalin, ransslipverticalout, transhorizontalin, transhorizontalout, transwipe. Automatic slide transition from one slide to another can be done using the command ``transduration{2}''
+                    
                 \end{frame}
 
 
     \section{Thanks} 
-        \setbeamertemplate{background}
-                {\includegraphics[width=\paperwidth,height=\paperheight]{t.png}}
+        %\setbeamertemplate{background}
+                %{\includegraphics[width=\paperwidth,height=\paperheight]{t.png}}
                 \begin{frame}
                 \frametitle{}
-                    \includegraphics[width=5cm, height=2cm]{th.jpg} \\
+                    %\includegraphics[width=5cm, height=2cm]{th.jpg} \\
                     \color{yellow}\textbf{\textrm{\LARGE{SHUKRIYA}}}
                 \end{frame}
 
