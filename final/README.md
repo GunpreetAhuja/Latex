@@ -1,4 +1,0 @@
-This is the LaTeX presentation on the topic "How to make a presentation with LaTeX". There are background images being used in the presentation and I have commented out the lines importing images in the presentation. You just have to clone the repository. Then place a directory in the final folder with the name "images" and place there different images as per your choice with the names "i, o, gg, c, b, t, th". Then uncomment the image tag:
-       %\setbeamertemplate{background}
-       %{\includegraphics[width=\paperwidth,height=\paperheight]{gg.jpg}}
-Then run the command "pdflatex presentation.tex", this will compile the document. Then to run the pdf use the command "evince presentation.pdf". 
